@@ -21,6 +21,7 @@ namespace raiweb
                 .Include("~/Scripts/jquery-{version}.js",
                     "~/Scripts/angular.js",
                     "~/Scripts/angular-ui-router.js",
+                    "~/Scripts/statehelper.js",
                     "~/Scripts/bootstrap.js");
 
             footerClientLibsBundle.IncludeDirectory("~/Scripts/clientlibs/common", "*.js", true)
